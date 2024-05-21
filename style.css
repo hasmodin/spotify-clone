@@ -357,3 +357,33 @@ button:hover {
 .footer-links>a:hover {
     opacity: 1;
 }
+
+
+.album {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    
+}
+
+.album-icon> img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 2rem;
+}
+
+.album-icon img {
+    margin-right: 2rem;
+}
+
+.album-info  {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.album-info>p{
+    margin: 0.15rem;
+    font-size: 0.8rem;
+}
